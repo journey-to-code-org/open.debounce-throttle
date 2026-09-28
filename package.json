@@ -1,0 +1,35 @@
+{
+  "name": "@journey-to-code/open-debounce-throttle",
+  "version": "1.0.0",
+  "description": "Dependency-free debounce and throttle helpers with cancel and flush controls.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "debounce",
+    "throttle",
+    "events",
+    "performance"
+  ],
+  "license": "MIT",
+  "sideEffects": false
+}
